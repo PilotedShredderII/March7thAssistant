@@ -90,4 +90,4 @@ class AutoPlot:
         if self.is_clicking:
             auto.press_mouse()
             # 短时间后再次执行点击操作
-            self.root.after(10, self.click)
+            self.root.after(2, self.click)
